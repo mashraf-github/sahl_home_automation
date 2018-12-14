@@ -33,9 +33,6 @@ jar {
     version = '0.0.1'
 }
 
-Procfile:
-    web: java $JAVA_OPTS -jar app.jar
-
 task stage(type: Copy, dependsOn: [clean, build]) {
     from jar.archivePath
     into project.rootDir 
