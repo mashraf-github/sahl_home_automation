@@ -1,0 +1,569 @@
+{
+	"creationUser": {
+		"id": 2,
+		"employee": {
+			"number": 1183,
+			"nameAr": "احمد صالح محمد محمد",
+			"nameEn": "Ahmed Saleh Mohamed Mohamed",
+			"rank": {
+				"code": 80,
+				"nameAr": "مهندس",
+				"nameEn": "Engineer",
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"division": {
+				"code": 0,
+				"nameAr": "",
+				"nameEn": "",
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"department": {
+				"code": 425,
+				"nameAr": "تكنولوجيا المعلومات",
+				"nameEn": "Information Technology",
+				"division": {
+					"code": 0,
+					"nameAr": "",
+					"nameEn": "",
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"section": {
+				"code": 432,
+				"nameAr": "التشغيل والدعم الفنى",
+				"nameEn": "Operation & Technical Support",
+				"department": {
+					"code": 425,
+					"nameAr": "تكنولوجيا المعلومات",
+					"nameEn": "Information Technology",
+					"division": {
+						"code": 0,
+						"nameAr": "",
+						"nameEn": "",
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"subsection": {
+				"code": 429,
+				"nameAr": "اﻷرشيف اﻻلكترونى",
+				"nameEn": "Electronic Archiving",
+				"section": {
+					"code": 432,
+					"nameAr": "التشغيل والدعم الفنى",
+					"nameEn": "Operation & Technical Support",
+					"department": {
+						"code": 425,
+						"nameAr": "تكنولوجيا المعلومات",
+						"nameEn": "Information Technology",
+						"division": {
+							"code": 0,
+							"nameAr": "",
+							"nameEn": "",
+							"hibernateLazyInitializer": {
+								
+							}
+						},
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"maFlat": "B+",
+			"natId": "29008130201458 ",
+			"mshift": "E",
+			"mobile": "01063308070",
+			"phone": "03-3919057",
+			"address": "Alexandria",
+			"hibernateLazyInitializer": {
+				
+			}
+		},
+		"userName": "asaleh",
+		"password": "$2a$10$WPDbKLCRnV0UrkEs2IEtUejsZiicxt0/GhUcOkg2.UscjBi8tOmxa",
+		"enabled": true,
+		"hibernateLazyInitializer": {
+			
+		}
+	},
+	"createdAt": 1543951799000,
+	"updateUser": {
+		"id": 3,
+		"employee": {
+			"number": 1,
+			"nameAr": "",
+			"nameEn": "",
+			"rank": {
+				"code": 0,
+				"nameAr": "",
+				"nameEn": "",
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"division": {
+				"code": 0,
+				"nameAr": "",
+				"nameEn": "",
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"department": {
+				"code": 0,
+				"nameAr": "",
+				"nameEn": "",
+				"division": {
+					"code": 0,
+					"nameAr": "",
+					"nameEn": "",
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"section": {
+				"code": 0,
+				"nameAr": "",
+				"nameEn": "",
+				"department": {
+					"code": 0,
+					"nameAr": "",
+					"nameEn": "",
+					"division": {
+						"code": 0,
+						"nameAr": "",
+						"nameEn": "",
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"subsection": {
+				"code": 0,
+				"nameAr": "",
+				"nameEn": "",
+				"section": {
+					"code": 0,
+					"nameAr": "",
+					"nameEn": "",
+					"department": {
+						"code": 0,
+						"nameAr": "",
+						"nameEn": "",
+						"division": {
+							"code": 0,
+							"nameAr": "",
+							"nameEn": "",
+							"hibernateLazyInitializer": {
+								
+							}
+						},
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"maFlat": "",
+			"natId": " ",
+			"mshift": "",
+			"mobile": "",
+			"phone": "",
+			"address": "",
+			"hibernateLazyInitializer": {
+				
+			}
+		},
+		"userName": "GateUser",
+		"password": "$2a$10$k7lsxBF4hIFxhNjyQuj8jOZOpNUH9KY1xxKCQyg.L16RgSKwEdR2.",
+		"enabled": true,
+		"hibernateLazyInitializer": {
+			
+		}
+	},
+	"updatedAt": 1543953094000,
+	"id": 3,
+	"user": {
+		"id": 3,
+		"employee": {
+			"number": 1,
+			"nameAr": "",
+			"nameEn": "",
+			"rank": {
+				"code": 0,
+				"nameAr": "",
+				"nameEn": "",
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"division": {
+				"code": 0,
+				"nameAr": "",
+				"nameEn": "",
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"department": {
+				"code": 0,
+				"nameAr": "",
+				"nameEn": "",
+				"division": {
+					"code": 0,
+					"nameAr": "",
+					"nameEn": "",
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"section": {
+				"code": 0,
+				"nameAr": "",
+				"nameEn": "",
+				"department": {
+					"code": 0,
+					"nameAr": "",
+					"nameEn": "",
+					"division": {
+						"code": 0,
+						"nameAr": "",
+						"nameEn": "",
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"subsection": {
+				"code": 0,
+				"nameAr": "",
+				"nameEn": "",
+				"section": {
+					"code": 0,
+					"nameAr": "",
+					"nameEn": "",
+					"department": {
+						"code": 0,
+						"nameAr": "",
+						"nameEn": "",
+						"division": {
+							"code": 0,
+							"nameAr": "",
+							"nameEn": "",
+							"hibernateLazyInitializer": {
+								
+							}
+						},
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"maFlat": "",
+			"natId": " ",
+			"mshift": "",
+			"mobile": "",
+			"phone": "",
+			"address": "",
+			"hibernateLazyInitializer": {
+				
+			}
+		},
+		"userName": "GateUser",
+		"password": "$2a$10$k7lsxBF4hIFxhNjyQuj8jOZOpNUH9KY1xxKCQyg.L16RgSKwEdR2.",
+		"enabled": true,
+		"hibernateLazyInitializer": {
+			
+		}
+	},
+	"role": {
+		"creationUser": {
+			"id": 1,
+			"employee": {
+				"number": 1092,
+				"nameAr": "محمد أشرف كمال السيد",
+				"nameEn": "Mohamed Ashraf Kamal ElSayed",
+				"rank": {
+					"code": 80,
+					"nameAr": "مهندس",
+					"nameEn": "Engineer",
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"division": {
+					"code": 0,
+					"nameAr": "",
+					"nameEn": "",
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"department": {
+					"code": 425,
+					"nameAr": "تكنولوجيا المعلومات",
+					"nameEn": "Information Technology",
+					"division": {
+						"code": 0,
+						"nameAr": "",
+						"nameEn": "",
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"section": {
+					"code": 432,
+					"nameAr": "التشغيل والدعم الفنى",
+					"nameEn": "Operation & Technical Support",
+					"department": {
+						"code": 425,
+						"nameAr": "تكنولوجيا المعلومات",
+						"nameEn": "Information Technology",
+						"division": {
+							"code": 0,
+							"nameAr": "",
+							"nameEn": "",
+							"hibernateLazyInitializer": {
+								
+							}
+						},
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"subsection": {
+					"code": 429,
+					"nameAr": "اﻷرشيف اﻻلكترونى",
+					"nameEn": "Electronic Archiving",
+					"section": {
+						"code": 432,
+						"nameAr": "التشغيل والدعم الفنى",
+						"nameEn": "Operation & Technical Support",
+						"department": {
+							"code": 425,
+							"nameAr": "تكنولوجيا المعلومات",
+							"nameEn": "Information Technology",
+							"division": {
+								"code": 0,
+								"nameAr": "",
+								"nameEn": "",
+								"hibernateLazyInitializer": {
+									
+								}
+							},
+							"hibernateLazyInitializer": {
+								
+							}
+						},
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"maFlat": "B-",
+				"natId": "29008130201458 ",
+				"mshift": "E",
+				"mobile": "01063308070",
+				"phone": "03-3919057",
+				"address": "Alexandria",
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"userName": "mashraf",
+			"password": "$2a$10$/ns.CwZ9sdhQaVjw/bwBQeelnmTZTI19trLtyY/bjbIVUokAckX8y",
+			"enabled": true,
+			"hibernateLazyInitializer": {
+				
+			}
+		},
+		"createdAt": 1543947513000,
+		"updateUser": {
+			"id": 1,
+			"employee": {
+				"number": 1092,
+				"nameAr": "محمد أشرف كمال السيد",
+				"nameEn": "Mohamed Ashraf Kamal ElSayed",
+				"rank": {
+					"code": 80,
+					"nameAr": "مهندس",
+					"nameEn": "Engineer",
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"division": {
+					"code": 0,
+					"nameAr": "",
+					"nameEn": "",
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"department": {
+					"code": 425,
+					"nameAr": "تكنولوجيا المعلومات",
+					"nameEn": "Information Technology",
+					"division": {
+						"code": 0,
+						"nameAr": "",
+						"nameEn": "",
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"section": {
+					"code": 432,
+					"nameAr": "التشغيل والدعم الفنى",
+					"nameEn": "Operation & Technical Support",
+					"department": {
+						"code": 425,
+						"nameAr": "تكنولوجيا المعلومات",
+						"nameEn": "Information Technology",
+						"division": {
+							"code": 0,
+							"nameAr": "",
+							"nameEn": "",
+							"hibernateLazyInitializer": {
+								
+							}
+						},
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"subsection": {
+					"code": 429,
+					"nameAr": "اﻷرشيف اﻻلكترونى",
+					"nameEn": "Electronic Archiving",
+					"section": {
+						"code": 432,
+						"nameAr": "التشغيل والدعم الفنى",
+						"nameEn": "Operation & Technical Support",
+						"department": {
+							"code": 425,
+							"nameAr": "تكنولوجيا المعلومات",
+							"nameEn": "Information Technology",
+							"division": {
+								"code": 0,
+								"nameAr": "",
+								"nameEn": "",
+								"hibernateLazyInitializer": {
+									
+								}
+							},
+							"hibernateLazyInitializer": {
+								
+							}
+						},
+						"hibernateLazyInitializer": {
+							
+						}
+					},
+					"hibernateLazyInitializer": {
+						
+					}
+				},
+				"maFlat": "B-",
+				"natId": "29008130201458 ",
+				"mshift": "E",
+				"mobile": "01063308070",
+				"phone": "03-3919057",
+				"address": "Alexandria",
+				"hibernateLazyInitializer": {
+					
+				}
+			},
+			"userName": "mashraf",
+			"password": "$2a$10$/ns.CwZ9sdhQaVjw/bwBQeelnmTZTI19trLtyY/bjbIVUokAckX8y",
+			"enabled": true,
+			"hibernateLazyInitializer": {
+				
+			}
+		},
+		"updatedAt": 1543947513000,
+		"id": 2,
+		"role_name": "ROLE_USER",
+		"hibernateLazyInitializer": {
+			
+		}
+	}
+}

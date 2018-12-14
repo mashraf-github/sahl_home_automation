@@ -1,0 +1,32 @@
+#logo {
+	height:200%;
+	margin-top: -3px;
+	margin-right: 10px;
+}
+#sysname{
+	margin-top: 15px;
+    color: ghostwhite;
+}
+#TopHeaderMenu
+{
+	margin-top: 5px;
+}
+#sysfooterText{
+	color: ghostwhite;
+}
+#sysheadercontainer{
+	background-color: #348f52;
+}
+#sysfootercontainer{
+	background-color: #348f52;
+}
+.panel-body	
+{
+	margin-bottom: 10px;
+}
+#parentpanel
+{
+	background-color: #e1e1e1;
+}
+
+

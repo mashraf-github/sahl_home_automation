@@ -1,0 +1,46 @@
+<!--
+	 this file contain all scripts that are customized for out system
+	 -------------------------------------------------------------------------------------------------------------
+	 the following file include is responsible for form (inside Modal ) intial loading and Submission Script -->
+<%@ include file="/WEB-INF/jsp/common/SysScripts/FormModalScript.jspf"%>
+<!--
+	 and to make use of this script in your Grid( the grid that will trigger the form) you should do some steps in the 
+	 this should be the code of the button that triggers the modal
+	
+	 <button class="btn btn-info" 
+								data-href="/add-car" data-btntype="formbtn"
+								data-target="#CarModal">
+	 <span class="glyphicon glyphicon glyphicon-plus"></span>Add Car
+	 </button>
+	 
+	 and the modal should look like the template in the Template Files(under JSP/TemplateFiles/DefaultModal.jsp) and you should include your modal in your grid.
+	 -------------------------------------------------------------------------------------------------------------
+	 the following file include is responsible -for combobox filling inside a form (inside Modal ) intial loading and also update -->
+<%@ include file="/WEB-INF/jsp/common/SysScripts/ComboBoxGenericScript.jspf"%>
+<!--
+	 and to make use of this script in your Grid( the grid that will trigger the form) you should do some steps in the 
+	 this should be the code of the combobox that you want to apply the scrip to
+	
+	<div class="form-group">
+									<label for="carName.id"> Car Name </label> <br> <select
+										id="CarNameCombo" data-url="/retrieve-carsnames-list"
+										data-model="carName" name="carName.id" data-text="name"
+										data-value="id" data-subtext="id" class="selectpicker"
+										data-show-subtext="true" data-live-search="true" data-width="100%">
+									</select>
+								</div>	
+	 
+	 -------------------------------------------------------------------------------------------------------------
+	 the following file include is responsible for  (Delete Modal ) -->
+<%@ include file="/WEB-INF/jsp/common/SysScripts/DeletionConfirmScript.jspf"%>
+<!--
+	 and to make use of this script in your Grid( the grid that will trigger the form) you should do some steps in the
+	 this should be the code of the button that triggers the modal
+	
+	<button class="btn btn-danger"
+													data-href="/delete-car?id=${car.id}" data-toggle="modal"
+													data-target="#myModal">
+													<i class="fa fa-trash-o" aria-hidden="true"></i>&nbsp;
+													Delete
+												</button>
+	 -->

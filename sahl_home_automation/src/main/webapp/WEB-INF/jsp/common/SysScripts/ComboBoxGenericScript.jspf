@@ -1,0 +1,37 @@
+<script>
+	$(document).ready(function() {
+		// here are set of ajax that fill the initial dropdowns like ( car names,car models and car types)
+		$('form').find('select').each(function() {
+			FillCombo($(this).attr('id'));
+		});
+	});
+	function FillCombo($ComboID) {
+
+		var comboID = '#' + $ComboID;
+
+		$.ajax({
+			type : 'GET',
+			dataType : "json",
+			url : $(comboID).attr('data-url'),
+			success : function(data) {
+				var options = [];
+				for ( var i in data) {
+					//$(frm).find("input[name='"+i+"']").val(data[i]);
+					var obj = data[i];
+					var option = "<option value="
+							+ obj[$(comboID).attr('data-value')]
+							+ " data-subtext="
+							+ obj[$(comboID).attr('data-value')] + " >"
+							+ obj[$(comboID).attr('data-text')] + "</option>";
+					options.push(option);
+				}
+				$(comboID).html(options);
+				$(comboID).selectpicker('refresh');
+			},
+			error : function() {
+				alert('error loading orders');
+			}
+		});
+
+	};
+</script>

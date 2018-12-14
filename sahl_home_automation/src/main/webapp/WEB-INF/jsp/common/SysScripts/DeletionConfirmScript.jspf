@@ -1,0 +1,10 @@
+<!--
+ the following script is for the confirmation box that is lanuched during 
+any deletion from the grid
+ -->
+<script>
+$('#myModal').on('show.bs.modal', function(e) {
+    $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+});
+</script>
+<!-- End Of Confirmation Script for Deletion -->

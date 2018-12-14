@@ -1,0 +1,109 @@
+<!-- Including Delete Confirmation Model -->
+<%@ include file="/WEB-INF/jsp/common/DeleteConfirmationModel.jspf"%>
+<!-- Endof Including Delete Confirmation Model -->
+<!-- here we set the footer for our application -->
+<div class="navbar navbar-inverse  navbar-fixed-bottom"> 
+<div class="container-fluid" id="sysfootercontainer">
+    <div class="footer-copyright text-right">
+	<div class="row" >
+	<div class="col-lg-12">
+    <p id="sysfooterText"><small>Developed by Sahl </small></p>
+	</div>
+	</div>
+	</div>
+	</div>
+</div>
+<!-- jquery
+		============================================ -->
+<script src="TemplateStyle/js/vendor/jquery-1.12.4.min.js"></script>
+<!-- bootstrap JS
+		============================================ -->
+<script src="TemplateStyle/js/bootstrap.min.js"></script>
+<!-- wow JS
+		============================================ -->
+<script src="TemplateStyle/js/wow.min.js"></script>
+<!-- price-slider JS
+		============================================ -->
+<script src="TemplateStyle/js/jquery-price-slider.js"></script>
+<!-- meanmenu JS
+		============================================ -->
+<script src="TemplateStyle/js/jquery.meanmenu.js"></script>
+<!-- owl.carousel JS
+		============================================ -->
+<script src="TemplateStyle/js/owl.carousel.min.js"></script>
+<!-- sticky JS
+		============================================ -->
+<script src="TemplateStyle/js/jquery.sticky.js"></script>
+<!-- scrollUp JS
+		============================================ -->
+<script src="TemplateStyle/js/jquery.scrollUp.min.js"></script>
+<!-- data table JS
+		============================================ -->
+<script src="TemplateStyle/js/data-table/bootstrap-table.js"></script>
+<script src="TemplateStyle/js/data-table/tableExport.js"></script>
+<script src="TemplateStyle/js/data-table/data-table-active.js"></script>
+<script src="TemplateStyle/js/data-table/bootstrap-table-editable.js"></script>
+<script src="TemplateStyle/js/data-table/bootstrap-editable.js"></script>
+<script src="TemplateStyle/js/data-table/bootstrap-table-resizable.js"></script>
+<script src="TemplateStyle/js/data-table/colResizable-1.5.source.js"></script>
+<script src="TemplateStyle/js/data-table/bootstrap-table-export.js"></script>
+<!--  editable JS
+		============================================ -->
+<script src="TemplateStyle/js/editable/jquery.mockjax.js"></script>
+<script src="TemplateStyle/js/editable/mock-active.js"></script>
+<script src="TemplateStyle/js/editable/select2.js"></script>
+<script src="TemplateStyle/js/editable/moment.min.js"></script>
+<script src="TemplateStyle/js/editable/bootstrap-datetimepicker.js"></script>
+<script src="TemplateStyle/js/editable/bootstrap-editable.js"></script>
+<script src="TemplateStyle/js/editable/xediable-active.js"></script>
+<!-- Chart JS
+		============================================ -->
+<script src="TemplateStyle/js/chart/jquery.peity.min.js"></script>
+<script src="TemplateStyle/js/peity/peity-active.js"></script>
+<!-- tab JS
+		============================================ -->
+<script src="TemplateStyle/js/tab.js"></script>
+<!-- counterup JS
+		============================================ -->
+<script src="TemplateStyle/js/counterup/jquery.counterup.min.js"></script>
+<script src="TemplateStyle/js/counterup/waypoints.min.js"></script>
+<script src="TemplateStyle/js/counterup/counterup-active.js"></script>
+<!-- mCustomScrollbar JS
+		============================================ -->
+<script
+	src="TemplateStyle/js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="TemplateStyle/js/scrollbar/mCustomScrollbar-active.js"></script>
+<!-- metisMenu JS
+		============================================ -->
+<script src="TemplateStyle/js/metisMenu/metisMenu.min.js"></script>
+<script src="TemplateStyle/js/metisMenu/metisMenu-active.js"></script>
+<!-- morrisjs JS
+		============================================ -->
+<script src="TemplateStyle/js/morrisjs/raphael-min.js"></script>
+<script src="TemplateStyle/js/morrisjs/morris.js"></script>
+<script src="TemplateStyle/js/morrisjs/morris-active.js"></script>
+<!-- morrisjs JS
+		============================================ -->
+<script src="TemplateStyle/js/sparkline/jquery.sparkline.min.js"></script>
+<script src="TemplateStyle/js/sparkline/jquery.charts-sparkline.js"></script>
+<script src="TemplateStyle/js/sparkline/sparkline-active.js"></script>
+<!-- calendar JS
+		============================================ -->
+<script src="TemplateStyle/js/calendar/moment.min.js"></script>
+<script src="TemplateStyle/js/calendar/fullcalendar.min.js"></script>
+<script src="TemplateStyle/js/calendar/fullcalendar-active.js"></script>
+<!-- plugins JS
+		============================================ -->
+<script src="TemplateStyle/js/plugins.js"></script>
+<!-- main JS
+		============================================ -->
+<script src="TemplateStyle/js/main.js"></script>
+<!-- bootstrap-dropselect JS
+		============================================ -->
+<script src="TemplateStyle/js/bootstrap-dropselect.js"></script>
+<script src="TemplateStyle/js/SelectScript.js"></script>
+<!-- tawk chat JS
+		============================================ -->
+<%@ include file="/WEB-INF/jsp/common/CommonScript.jspf"%>
+</body>
+</html>
