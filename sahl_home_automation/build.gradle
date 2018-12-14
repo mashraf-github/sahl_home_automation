@@ -28,6 +28,11 @@ configurations {
 	providedRuntime
 }
 
+jar {
+    baseName = 'app'
+    version = '0.0.1'
+}
+
 ext {
     bootstrapVersion = '3.3.7'
     jqueryVersion = '1.11.1'
